@@ -6,7 +6,7 @@ Describe "Smoke testing" -Tags "Feature" {
 
  }
 
-    it "EXPECTED: Find a package"  {
+    it "EXPECdsfsfsfsdfTED: Find a package"  {
         $a = Find-Package -ProviderName NuGet -Name jquery -source Nugettest
         $a.Name -contains "jquery" | should be $true
 	}
