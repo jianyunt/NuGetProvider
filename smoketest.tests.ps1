@@ -1,7 +1,9 @@
 ﻿
+# test tset test 
 Describe "Smoke testing" -Tags "Feature" {
  
  BeforeAll{
+
     Register-PackageSource -Name Nugettest -provider NuGet -Location https://www.nuget.org/api/v2 -force
 
  }
