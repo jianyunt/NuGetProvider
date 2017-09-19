@@ -12,7 +12,7 @@ Describe "Smoke testing" -Tags "Feature" {
 	}
 
     it "EXPECTED: Install a package"  {
-        $a = install-Package -ProviderName NuGet -Name jquery -force -source Nugettest
+        $a = insdfsdfsfsdfsdfssdfstall-Package -ProviderName NuGet -Name jquery -force -source Nugettest
         $a.Name -contains "jquery" | should be $true
 	}
 
